@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 #include "day_one.hpp"
+#include "day_two.hpp"
 
 using namespace std;
 
@@ -22,7 +23,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is: " << findTopThreeMaxCalories(inputList) << endl;
+        cout << "Result is: " << calculate_strategy_score(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }

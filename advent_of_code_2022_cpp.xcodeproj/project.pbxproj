@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		911C86E12938C3F4006C1E55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 911C86E02938C3F4006C1E55 /* main.cpp */; };
+		91D3C2A2293A031D001086C9 /* day_two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91D3C2A0293A031D001086C9 /* day_two.cpp */; };
 		91E107292938C73A00D6ED28 /* day_one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91E107272938C73A00D6ED28 /* day_one.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,9 @@
 /* Begin PBXFileReference section */
 		911C86DD2938C3F4006C1E55 /* advent_of_code_2022_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = advent_of_code_2022_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		911C86E02938C3F4006C1E55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		91D3C2A0293A031D001086C9 /* day_two.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day_two.cpp; sourceTree = "<group>"; };
+		91D3C2A1293A031D001086C9 /* day_two.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = day_two.hpp; sourceTree = "<group>"; };
+		91D3C2A3293A0350001086C9 /* day_two.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_two.txt; sourceTree = "<group>"; };
 		91E107262938C5C100D6ED28 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		91E107272938C73A00D6ED28 /* day_one.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day_one.cpp; sourceTree = "<group>"; };
 		91E107282938C73A00D6ED28 /* day_one.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = day_one.hpp; sourceTree = "<group>"; };
@@ -65,6 +69,9 @@
 				911C86E02938C3F4006C1E55 /* main.cpp */,
 				91E107272938C73A00D6ED28 /* day_one.cpp */,
 				91E107282938C73A00D6ED28 /* day_one.hpp */,
+				91D3C2A0293A031D001086C9 /* day_two.cpp */,
+				91D3C2A1293A031D001086C9 /* day_two.hpp */,
+				91D3C2A3293A0350001086C9 /* day_two.txt */,
 			);
 			path = advent_of_code_2022_cpp;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D3C2A2293A031D001086C9 /* day_two.cpp in Sources */,
 				911C86E12938C3F4006C1E55 /* main.cpp in Sources */,
 				91E107292938C73A00D6ED28 /* day_one.cpp in Sources */,
 			);
