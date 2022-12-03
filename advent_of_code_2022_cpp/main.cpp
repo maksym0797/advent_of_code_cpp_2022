@@ -11,6 +11,7 @@
 #include <vector>
 #include "day_one.hpp"
 #include "day_two.hpp"
+#include "day_three.hpp"
 
 using namespace std;
 
@@ -23,7 +24,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is: " << calculate_strategy_score(inputList) << endl;
+        cout << "Result is: " << count_intersect_types(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
