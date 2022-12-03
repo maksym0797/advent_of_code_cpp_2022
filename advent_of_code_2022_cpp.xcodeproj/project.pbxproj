@@ -69,18 +69,42 @@
 		911C86DF2938C3F4006C1E55 /* advent_of_code_2022_cpp */ = {
 			isa = PBXGroup;
 			children = (
+				91D3C2AA293B9998001086C9 /* day_three */,
+				91D3C2A9293B9983001086C9 /* day_two */,
+				91D3C2A8293B9961001086C9 /* day_one */,
 				91E107262938C5C100D6ED28 /* input.txt */,
 				911C86E02938C3F4006C1E55 /* main.cpp */,
+			);
+			path = advent_of_code_2022_cpp;
+			sourceTree = "<group>";
+		};
+		91D3C2A8293B9961001086C9 /* day_one */ = {
+			isa = PBXGroup;
+			children = (
 				91E107272938C73A00D6ED28 /* day_one.cpp */,
 				91E107282938C73A00D6ED28 /* day_one.hpp */,
+			);
+			path = day_one;
+			sourceTree = "<group>";
+		};
+		91D3C2A9293B9983001086C9 /* day_two */ = {
+			isa = PBXGroup;
+			children = (
 				91D3C2A0293A031D001086C9 /* day_two.cpp */,
 				91D3C2A1293A031D001086C9 /* day_two.hpp */,
 				91D3C2A3293A0350001086C9 /* day_two.txt */,
+			);
+			path = day_two;
+			sourceTree = "<group>";
+		};
+		91D3C2AA293B9998001086C9 /* day_three */ = {
+			isa = PBXGroup;
+			children = (
 				91D3C2A4293B7F68001086C9 /* day_three.cpp */,
 				91D3C2A5293B7F68001086C9 /* day_three.hpp */,
 				91D3C2A7293B91A1001086C9 /* day_three.txt */,
 			);
-			path = advent_of_code_2022_cpp;
+			path = day_three;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
