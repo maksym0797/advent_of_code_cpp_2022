@@ -62,5 +62,5 @@ int calculate_in_range_pairs(vector<string> inputPairs)
         }
     }
     
-    return inputPairs.size() - result;
+    return (int)(inputPairs.size() - result);
 }

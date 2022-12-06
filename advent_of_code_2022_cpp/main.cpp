@@ -13,6 +13,7 @@
 #include "day_two.hpp"
 #include "day_three.hpp"
 #include "day_four.hpp"
+#include "day_five.hpp"
 
 using namespace std;
 
@@ -25,7 +26,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is: " << calculate_in_range_pairs(inputList) << endl;
+        cout << "Result is: " <<  get_crate_message(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
