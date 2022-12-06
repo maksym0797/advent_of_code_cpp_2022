@@ -14,6 +14,7 @@
 #include "day_three.hpp"
 #include "day_four.hpp"
 #include "day_five.hpp"
+#include "day_six.hpp"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is: " <<  get_crate_message(inputList) << endl;
+        cout << "Result is: " <<  find_marker_start(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
