@@ -17,7 +17,7 @@
 
 using namespace std;
 
-vector<string> get_splited_strins_by_delimiter(string input, char delimiter)
+vector<string> get_splited_strings_by_delimiter(string input, char delimiter)
 {
     stringstream input_stream(input);
     string segment;
@@ -35,11 +35,11 @@ vector<int> get_ranges_starts_ends(string pairs)
 {
     vector<int> result;
     
-    vector<string> splited_pairs = get_splited_strins_by_delimiter(pairs, ',');
+    vector<string> splited_pairs = get_splited_strings_by_delimiter(pairs, ',');
     vector<string> pair_range;
     for (int i = 0; i < splited_pairs.size(); i++)
     {
-        pair_range = get_splited_strins_by_delimiter(splited_pairs[i], '-');
+        pair_range = get_splited_strings_by_delimiter(splited_pairs[i], '-');
         result.push_back(stoi(pair_range[0]));
         result.push_back(stoi(pair_range[1]));
     }

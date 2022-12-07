@@ -19,7 +19,6 @@
 
 using namespace std;
 
-
 vector<char> fill_tower_with_chars(vector<string> inputCrates, int separator_str_index, int tower_index)
 {
     vector<char> tower;
