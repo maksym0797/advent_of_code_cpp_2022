@@ -18,6 +18,7 @@
 #include "day_seven.hpp"
 #include "day_eight.hpp"
 #include "day_nine.hpp"
+#include "day_ten.hpp"
 
 using namespace std;
 
@@ -30,7 +31,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is:" << count_tail_positions(inputList) << endl;
+        cout << "Result is:" << calculate_signal_strength(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
