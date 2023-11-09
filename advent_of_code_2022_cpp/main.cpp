@@ -19,6 +19,7 @@
 #include "day_eight.hpp"
 #include "day_nine.hpp"
 #include "day_ten.hpp"
+#include "day_eleven.hpp"
 
 using namespace std;
 
@@ -31,7 +32,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is:" << calculate_signal_strength(inputList) << endl;
+        cout << "Result is:" << calculate_monkey_buisness(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
