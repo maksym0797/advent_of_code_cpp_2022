@@ -20,6 +20,7 @@
 #include "day_nine.hpp"
 #include "day_ten.hpp"
 #include "day_eleven.hpp"
+#include "day_twelve.hpp"
 
 using namespace std;
 
@@ -32,7 +33,7 @@ int main(int argc, const char * argv[]) {
         while (getline(inputFile, tempStr)) {
             inputList.push_back(tempStr);
         }
-        cout << "Result is:" << calculate_monkey_buisness(inputList) << endl;
+        cout << "Result is:" << find_least_steps(inputList) << endl;
     } else {
         cout << "Error, cannot open input file" << endl;
     }
